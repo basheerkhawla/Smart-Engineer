@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "661362720378",
+    "project_id": "smart-engineer-f7c0e",
+    "storage_bucket": "smart-engineer-f7c0e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661362720378:android:e3a792f6b3d5e91f1185c3",
+        "android_client_info": {
+          "package_name": "com.bas.SmartEngineer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyZvj8Q5Kcyvtgi5Rh2cGIf587wj9r-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
