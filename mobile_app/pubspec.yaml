@@ -1,0 +1,103 @@
+name: smart_engineer
+description: مهندس ذكي - تطبيق المهندس المدني الميداني
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.4
+  firebase_messaging: ^15.1.4
+
+  # State Management
+  provider: ^6.1.2
+
+  # Navigation
+  go_router: ^14.3.0
+
+  # UI Components
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  lottie: ^3.1.2
+
+  # Storage محلي
+  shared_preferences: ^2.3.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.4
+
+  # Network
+  http: ^1.2.2
+  connectivity_plus: ^6.1.0
+
+  # File & Media
+  file_picker: ^8.1.2
+  image_picker: ^1.1.2
+  image_gallery_saver: ^2.0.3
+  permission_handler: ^11.3.1
+
+  # Voice & Audio
+  speech_to_text: ^7.0.0
+  record: ^5.1.2
+  just_audio: ^0.9.40
+
+  # Camera & Location
+  camera: ^0.11.0+2
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+
+  # Ads
+  google_mobile_ads: ^5.2.0
+
+  # In-App Purchase
+  in_app_purchase: ^3.2.0
+
+  # Share
+  share_plus: ^10.0.2
+
+  # Documents
+  syncfusion_flutter_pdf: ^34.1.32
+
+  # Utilities
+  intl: ^0.20.2
+  uuid: ^4.4.2
+  url_launcher: ^6.3.1
+  package_info_plus: ^8.1.1
+  crypto: ^3.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Cairo-Light.ttf
+          weight: 300
